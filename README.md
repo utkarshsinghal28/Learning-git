@@ -12,7 +12,7 @@ You can use simple HTML tags inside a `README.md` file.
 
 The heading above is created using an HTML tag.
 
-When we open git we are at the root directory
+When we open git we are in the root directory by defult.
 
 <h2> Git config</h2>
 
