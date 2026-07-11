@@ -16,9 +16,9 @@ Keep in mind that i have chosen git default termial as vs codes termial so maybe
 
 <h2> Git config</h2>
 
-1. 'git config --global user.name "Myname"' - add your username in gits config file.
-2. 'git config --global user.email "Myemail"'- add your email in gits config file.
-3. 'git config --list'- shows the gits config file.
+1. `git config` --global user.name "Myname"' - add your username in gits config file.
+2. `git config` --global user.email "Myemail"'- add your email in gits config file.
+3. `git config` --list'- shows the gits config file.
 
 # Git Commands
 
@@ -30,7 +30,8 @@ Keep in mind that i have chosen git default termial as vs codes termial so maybe
 6. `ls -a` -Shows the hiddin files (make sure to open to repo by cd after cloneing it).
 7. `git status`-Shows the branch you are on and some important informations which i have told in basic points.
 8. `git add <filename>` -adds new or changed files in gits staging area.
-9. `git commit <filename>` - records the change before pushing it
+9. `git commit <filename> "comment"` - records the change before pushing it
+10. `git push origin main` - pushes your committed file to the git repo and updates the repo
 
 <h2>Basic Points</h2>
 <h3>Git clone</h3>
@@ -44,11 +45,17 @@ If you make a change the termial will tell you no changes added to commit.
 <h5>untracked</h5>
 If you create a file inside the folder you are using it will say its an untracked file.<br>
 <h5>modified</h5>
-If you change the file contant in a file which is already commited
+If you change the file contant in a file which is already commited.
 <h5>staged</h5>
-A file ready to be committed(file is added)
+A file ready to be committed(file is added).
 <h5>unmodified</h5>
-the orginal repo you cloned without any changes or if you commit the staged file(added file is committed)
+the orginal repo you cloned without any changes or if you commit the staged file(added file is committed).
+<h3>Git add</h3>
+You can also add multiple files by using git add . and it update the file and makes them ready to be committed.
+<h3>Git commit</h3>
+You can do git commit m "comment" to commit multiple files at onces.
+<h3>Git push</h3>
+you can push your git file into your git repo by using git push origin main.
 <h3>Important point</h3>
 And you need to change your termial in vs code from powershell to bash trust me it gives a lot of problems
 if you dont.<br>
