@@ -53,10 +53,10 @@ the orginal repo you cloned without any changes or if you commit the staged file
 <h3>Git add</h3>
 You can also add multiple files by using git add . and it update the file and makes them ready to be committed.
 <h3>Git commit</h3>
-You can do git commit m "comment" to commit multiple files at onces.
+You can do git commit -m "comment" to commit multiple files at onces.
 <h3>Git push</h3>
-you can push your git file into your git repo by using git push origin main.
+you can push your git file into your git repo by using git push origin main.(here your code is being pushed to the branch main)
 <h3>Important point</h3>
-And you need to change your termial in vs code from powershell to bash trust me it gives a lot of problems
+You need to change your termial in vs code from powershell to bash trust me it gives a lot of problems
 if you dont.<br>
 
