@@ -29,6 +29,7 @@ Keep in mind that i have chosen git default termial as vs codes termial so maybe
 5. `git clone <http>` -Clones the repo on your local machine(laptop/pc).
 6. `ls -a` -Shows the hiddin files (make sure to open to repo by cd after cloneing it).
 7. `git status`-Shows the branch you are on (we wil talk about branches in a bit) and some important informations which i have told in basic points.
+8. `git add <filename>` -adds new or changed files in gits  staging area.
 
 <h2>Basic Points</h2>
 <h3>Git clone</h3>
@@ -38,7 +39,16 @@ Keep in mind this will clone the repo in the folder you run this command on by o
 <h3>Git status</h3>
 while using git status it will either tell you there is nothing to commit if no changes.<br>
 If you make a change the termial will tell you no changes added to commit.
-
+<h4>File types</h4>
+<h5>untracked</h5>
+If you create a file inside the folder you are using it will say its an untracked file.<br>
+<h5>modified</h5>
+If you change the file contant in a file which is already commited
+<h5>staged</h5>
+A file ready to be committed(file is added)
+<h5>unmodified</h5>
+the orginal repo you cloned without any changes or if you commit the staged file(added file is committed)
 <h3>Important point</h3>
 And you need to change your termial in vs code from powershell to bash trust me it gives a lot of problems
-if you dont.
+if you dont.<br>
+
