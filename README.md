@@ -64,7 +64,7 @@ if you dont.<br>
 # Git init
 
 Suppose you have a new folder in which you have code or you have made a project and want to upload to git than we use the following order:<br>
- Git init-->git add .-->git commit -m "any comment"-->`than create a repo in github without readme if you dont have it in your project after which you will link them`--> git remote add origin<--link to that repo-->git remote -v //verify the repo --> git branch // checks the branch -->git push origin main
+ Git init-->git add .-->git commit -m "any comment"-->`than create a repo in github without readme if you dont have it in your project after this step we will link them for that`<br>git remote add origin<--link to that repo--> --->git remote -v //verify the repo --> git branch // checks the branch -->git push origin main
 <br>
  git branch -M main //changes the name like we changed to main now
 
