@@ -64,15 +64,16 @@ if you dont.<br>
 # Git init
 
 Suppose you have a new folder in which you have code or you have made a project and want to upload to git than we use the following order:<br>
- Git init-->git add .-->git commit -m "any comment"-->`than create a repo in github without readme if you dont have it in your project after this step we will link them for that`<br>git remote add origin<--link to that repo--> --->git remote -v //verify the repo --> git branch // checks the branch -->git push origin main
+ Git init-->git add .-->git commit -m "any comment"-->`than create a repo in github without readme if you dont have it in your project after this step we will link them for that`<br>git remote add origin<--link to that repo--> --->git remote -v //verify the repo --> git branch // checks the branch<br> git push origin main(at last you push it normally by this command)
 <br>
- git branch -M main //changes the name like we changed to main now
+
+ git branch -M main //changes the name like we changed the name to main now
 
 # Git branches
-`git branch`-->lists all the branch
-`git checkout -b createnew`--> creates a new branch
-`git checkout name`--> we switch to that brach
-`git branch -d createnew`--> deletes the branch
+1. `git branch`-->lists all the branch
+2. `git checkout -b createnew`--> creates a new branch
+3. `git checkout name`--> we switch to that brach
+4. `git branch -d createnew`--> deletes the branch
 <br>
 
 `Note` -->suppose you are working on main and create a branch new main and add more features on it than those features wont be shown on main until you merge them
