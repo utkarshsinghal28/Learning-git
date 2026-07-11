@@ -20,7 +20,7 @@ Keep in mind that i have chosen git default termial as vs codes termial so maybe
 2. `git config` --global user.email "Myemail"'- add your email in gits config file.
 3. `git config` --list'- shows the gits config file.
 
-# Git Commands
+# Git basic Commands
 
 1. `ls` — Shows all files and folders in the current directory.
 2. `cd <folder-name>` — Moves into the specified folder.
@@ -32,6 +32,7 @@ Keep in mind that i have chosen git default termial as vs codes termial so maybe
 8. `git add <filename>` -adds new or changed files in gits staging area.
 9. `git commit <filename> "comment"` - records the change before pushing it
 10. `git push origin main` - pushes your committed file to the git repo and updates the repo
+11.`git init` - makes your normal folder a git repo (for more info scroll down)
 
 <h2>Basic Points</h2>
 <h3>Git clone</h3>
@@ -60,3 +61,9 @@ you can push your git file into your git repo by using git push origin main.(her
 You need to change your termial in vs code from powershell to bash trust me it gives a lot of problems
 if you dont.<br>
 
+# Git init
+
+Suppose you have a new folder in which you have code or you have made a project and want to upload to git than this is where we use the following order:
+ Git init-->git add .-->git commit -m "any comment"-->`than create a repo in github without readme if you dont have it in your project after which you will link them`--> git remote add origin<--link to that repo-->git remote -v //verify the repo --> git branch // checks the branch -->git push origin main <br>
+ git branch -M main //changes the name like we changed to main now
+# Git branches
