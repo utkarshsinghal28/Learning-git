@@ -28,8 +28,9 @@ Keep in mind that i have chosen git default termial as vs codes termial so maybe
 4. `pwd` — Displays the current working directory.
 5. `git clone <http>` -Clones the repo on your local machine(laptop/pc).
 6. `ls -a` -Shows the hiddin files (make sure to open to repo by cd after cloneing it).
-7. `git status`-Shows the branch you are on (we wil talk about branches in a bit) and some important informations which i have told in basic points.
-8. `git add <filename>` -adds new or changed files in gits  staging area.
+7. `git status`-Shows the branch you are on and some important informations which i have told in basic points.
+8. `git add <filename>` -adds new or changed files in gits staging area.
+9. `git commit <filename>` - records the change before pushing it
 
 <h2>Basic Points</h2>
 <h3>Git clone</h3>
