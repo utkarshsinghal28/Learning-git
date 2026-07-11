@@ -16,9 +16,9 @@ When we open git we are in the root directory by defult.
 
 <h2> Git config</h2>
 
-1. 'git config --global user.name "Myname"' - add your username in gits config file
-2. 'git config --global user.email "Myemail"'- add your email in gits config file
-3. 'git config --list'- shows the gits config file
+1. 'git config --global user.name "Myname"' - add your username in gits config file.
+2. 'git config --global user.email "Myemail"'- add your email in gits config file.
+3. 'git config --list'- shows the gits config file.
 
 # Git Commands
 
