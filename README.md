@@ -6,4 +6,5 @@ This repo will also act as testing of git and its features.
 You can use simple html to write your read me file/other files too 
 <br>
 this heading is also made by html tag
+
 # Git command
