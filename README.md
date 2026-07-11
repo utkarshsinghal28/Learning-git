@@ -30,9 +30,9 @@ Keep in mind that i have chosen git default termial as vs codes termial so maybe
 6. `ls -a` -Shows the hiddin files (make sure to open to repo by cd after cloneing it).
 7. `git status`-Shows the branch you are on and some important informations which i have told in basic points.
 8. `git add <filename>` -adds new or changed files in gits staging area.
-9. `git commit <filename> "comment"` - records the change before pushing it
+9. `git commit -m "comment"` - records the change before pushing it
 10. `git push origin main` - pushes your committed file to the git repo and updates the repo
-11.`git init` - makes your normal folder a git repo (for more info scroll down)
+11. `git init` - makes your normal folder a git repo (for more info scroll down)
 
 <h2>Basic Points</h2>
 <h3>Git clone</h3>
@@ -60,11 +60,12 @@ you can push your git file into your git repo by using git push origin main.(her
 <h3>Important point</h3>
 You need to change your termial in vs code from powershell to bash trust me it gives a lot of problems
 if you dont.<br>
+You can use `git pull origin main` to like fetch the data if the repo was updated and it also merges
 
 # Git init
 
 Suppose you have a new folder in which you have code or you have made a project and want to upload to git than we use the following order:<br>
- `Git init-->git add .-->git commit -m "any comment"-->`than create a repo in github without readme if you dont have it in your project after this step we will link them for that`<br>git remote add origin<--link to that repo--> --->git remote -v //verify the repo --> git branch // checks the branch<br> git push origin main(at last you push it normally by this command)`
+ `Git init-->git add .-->git commit -m "any comment"-->`than create a repo in github without readme if you dont have it in your project after this step we will link them for that`git remote add origin<--link to that repo--> --->git remote -v //verify the repo --> git branch // checks the branch---> git push origin main(at last you push it normally by this command)`
 <br>
 
  git branch -M main //changes the name like we changed the name to main now
@@ -79,3 +80,23 @@ Suppose you have a new folder in which you have code or you have made a project 
 `Note` -->suppose you are working on main and create a branch new main and add more features on it than those features wont be shown on main until you merge them
 
 <h2>Merging</h2>
+<h3>way 1</h3>
+
+1. `git diff <name>`--> checks the difference
+2. `git merge <name>`-->merges the branches
+
+<h3>way 2</h3>
+This way we will use Github PR (pull request). This is way used by many companys
+
+1. we request a PR
+2. if you are working with more people/ a company someone reviews it
+3. make the decision to merge it or not
+
+# undoing changes
+1. `git reset` --> makes the file before the git add . change was done
+2. `git reset HEAD~1`-->undo the latest commited changes
+3. `git reset --hard <-commit hash->`-->undo changes till that hash(aviable in github beside your commits)
+
+# some usefull commands
+1. `git log`--> shows the history
+2. `git restore <filename>`--> Restores a file to the last committed version.
