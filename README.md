@@ -4,7 +4,7 @@ This repository contains the basics of Git and GitHub.
 
 It also serves as a playground where I test Git commands and features while learning.
 
-<h2>Basics</h2>
+<h1>Basics</h1>
 
 You can use simple HTML tags inside a `README.md` file.
 
@@ -12,7 +12,7 @@ You can use simple HTML tags inside a `README.md` file.
 
 The heading above is created using an HTML tag.
 
-# Git config
+<h2> Git config</h2>
 
 1. 'git config --global user.name "Myname"' - add your username in gits config file
 2. 'git config --global user.email "Myemail"'- add your email in gits config file
