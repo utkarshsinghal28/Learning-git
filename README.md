@@ -12,11 +12,13 @@ You can use simple HTML tags inside a `README.md` file.
 
 The heading above is created using an HTML tag.
 
+When we open git we are at the root directory
+
 <h2> Git config</h2>
 
 1. 'git config --global user.name "Myname"' - add your username in gits config file
 2. 'git config --global user.email "Myemail"'- add your email in gits config file
-3. 'git config --list'- shows the gits config
+3. 'git config --list'- shows the gits config file
 
 # Git Commands
 
