@@ -14,6 +14,8 @@ The heading above is created using an HTML tag.
 
 When we open git we are in the root directory by defult.
 
+Keep in mind that i have chosen git defult termial as vs codes termial so maybe things may be different for you.
+
 <h2> Git config</h2>
 
 1. 'git config --global user.name "Myname"' - add your username in gits config file.
