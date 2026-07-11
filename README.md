@@ -8,13 +8,11 @@ It also serves as a playground where I test Git commands and features while lear
 
 You can use simple HTML tags inside a `README.md` file.
 
-<br>
-
 The heading above is created using an HTML tag.
 
-When we open git we are in the root directory by defult.
+When we open git we are in the root directory by default.
 
-Keep in mind that i have chosen git defult termial as vs codes termial so maybe things may be different for you.
+Keep in mind that i have chosen git default termial as vs codes termial so maybe things may be different for you.
 
 <h2> Git config</h2>
 
