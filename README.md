@@ -26,14 +26,18 @@ Keep in mind that i have chosen git default termial as vs codes termial so maybe
 2. `cd <folder-name>` — Moves into the specified folder.
 3. `cd ..` — Moves back to the parent directory.
 4. `pwd` — Displays the current working directory.
-5. 'git clone <http>' -Clones the repo on your local machine(laptop/pc).
-6. 'ls -a' -Shows the hiddin files (make sure to open to repo by cd after cloneing it).
-7. 
+5. `git clone <http>` -Clones the repo on your local machine(laptop/pc).
+6. `ls -a` -Shows the hiddin files (make sure to open to repo by cd after cloneing it).
+7. `git status`-Shows the branch you are on (we wil talk about branches in a bit) and some important informations which i have told in basic points.
 
 <h2>Basic Points</h2>
-  
+<h3>git clone</h3>
 You can try to clone this repo by using this http link https://github.com/utkarshsinghal28/Learning-git.git 
 or you can try to clone your own repo.<br>
-Keep in mind this will clone the repo in the folder you run this command on by opening your termial there.<br>
+Keep in mind this will clone the repo in the folder you run this command on by opening your termial there.
+<h3>git status</h3>
+while using git status it will either tell you there is nothing to commit if no changes.<br>
+If you make a change the termial will tell you no changes added to commit.
+<h3>important point</h3>
 And you need to change your termial in vs code from powershell to bash trust me it gives a lot of problems
 if you dont.
