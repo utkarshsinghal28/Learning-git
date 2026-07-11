@@ -33,3 +33,5 @@ Keep in mind that i have chosen git default termial as vs codes termial so maybe
 You can try to clone this repo by using this http link https://github.com/utkarshsinghal28/Learning-git.git 
 or you can try to clone your own repo<br>
 Keep in mind this will clone the repo in the folder you run this command on by opening your termial there
+And you need to change your termial in vs code from powershell to bash trust me it gives a lot of problem 
+if you dont
